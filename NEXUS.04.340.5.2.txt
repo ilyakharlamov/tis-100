@@ -1,0 +1,46 @@
+@0
+
+
+@1
+FR:MOV UP ACC
+   MOV ACC RIGHT
+TO:SUB UP
+   SUB 1
+   MOV ACC RIGHT
+
+@2
+FR:MOV LEFT ACC
+   JEZ SU
+SK:SUB 1
+   MOV UP NIL
+   JGZ SK
+SU:MOV LEFT ACC
+IT:MOV UP DOWN
+   ADD 1
+   JLZ IT
+FF:MOV UP ACC
+   JNZ FF
+ZE:MOV 0 DOWN
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+MOV UP DOWN
+
+@7
+
+
+@8
+
+
+@9
+MOV UP DOWN
+
+@10

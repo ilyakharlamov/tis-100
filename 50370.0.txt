@@ -1,0 +1,55 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+B: SWP
+  MOV ACC DOWN
+  ADD 1
+  SAV
+  SUB 29
+  JGZ NEXT
+  ADD 29
+  JMP B
+NEXT:
+  SWP
+  MOV 0 ACC
+  SWP
+
+@6
+
+
+@7
+
+
+@8
+B: MOV 30 ACC
+Z: SWP
+   MOV ACC RIGHT
+   SWP
+   SUB 1
+   JEZ INC
+   JMP Z
+INC: SWP
+     ADD 1
+     SWP
+     JMP B
+
+@9
+MOV UP DOWN
+MOV LEFT DOWN
+MOV 3 DOWN
+MOV -1 DOWN
+
+@10

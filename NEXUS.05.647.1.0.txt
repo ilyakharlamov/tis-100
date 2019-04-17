@@ -1,0 +1,55 @@
+@0
+MOV UP DOWN
+
+@1
+MOV UP DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP RIGHT
+
+@6
+MOV LEFT ACC
+L0: SUB 2
+    SWP
+    ADD 1
+    SWP
+    JGZ L0
+DV: SWP
+    MOV ACC RIGHT
+    MOV ACC DOWN
+    MOV 0 ACC
+    SWP
+
+@7
+MOV LEFT ACC
+L0: SUB 2
+    SWP
+    ADD 1
+    SWP
+    JGZ L0
+DV: SWP
+    MOV ACC RIGHT
+    MOV ACC DOWN
+    MOV 0 ACC
+    SWP
+
+@8
+MOV LEFT ACC
+L0: SUB 2
+    SWP
+    ADD 1
+    SWP
+    JGZ L0
+DV: SWP
+    MOV ACC DOWN
+    MOV 0 ACC
+    SWP
