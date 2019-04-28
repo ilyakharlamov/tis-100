@@ -1,0 +1,44 @@
+@0
+S: MOV UP ACC
+   MOV ACC RIGHT
+   JEZ CYC
+   MOV DOWN NIL
+   JMP S
+
+CYC:MOV DOWN RIGHT
+    JMP CYC
+
+@1
+MOV LEFT ACC
+SWP
+MOV ACC DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV RIGHT ACC
+SWP
+MOV ACC UP
+
+@5
+MOV UP ACC
+SWP
+MOV ACC LEFT
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10
